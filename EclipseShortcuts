@@ -1,0 +1,30 @@
+package com.abg.TestProject;
+
+public class EclipseShortcuts {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public static void shortCuts(String name) {
+		//ifnull or ifnotnull
+		if (name == null) {
+			
+		}
+		//Put your cursor on a class name (or method) and press Shift+F2 to jumpto the web version of your library's Javadoc.
+		App app = new 	App();
+				
+		//Use the 'Quick Access' box (Ctrl+3) to be more productive. Just typewhat you want and you'll probably find it. 
+		
+		//Always safer to 'Invert equals' on literal strings in order to avoid aNullPointerException! Ctrl+1 does it for you. 
+		app.getClass();
+		if(name.equals("Ram"))
+			System.out.println(name);
+		//
+		//Edit -> Toggle Block Selection tool (or just hit Shift+Alt+A) isdemonstrated below.
+		//Press Shift while hovering a method and it will show implementationin-place
+		//The 'enclosing' selection (Alt+Shift+Up/Dn) shortcut selects theenclosing structure, e.g. var->if->method->class 
+	}
+
+}
