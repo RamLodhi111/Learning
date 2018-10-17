@@ -1,0 +1,9 @@
+Why MicroServices??
+
+Challenges of Monolithic Architecture :
+
+Scalability : can not make multiple changes as it affects each other.
+Agility : Need to rebuild complete application for each change.
+Hybrid Technologies : Need to depend on same technology.
+Fault Tolerance: For any small issue, complete aplication will get down.
+
