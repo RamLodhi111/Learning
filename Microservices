@@ -1,9 +1,12 @@
 Why MicroServices??
 
 Challenges of Monolithic Architecture :
-
 Scalability : can not make multiple changes as it affects each other.
 Agility : Need to rebuild complete application for each change.
 Hybrid Technologies : Need to depend on same technology.
 Fault Tolerance: For any small issue, complete aplication will get down.
 
+
+What is Microservices?
+Microservices is an architecture wherein all the components of the system are put into individual components,
+which can be built, deployed, and scaled individually.
